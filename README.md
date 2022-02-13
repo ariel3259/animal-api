@@ -37,6 +37,6 @@ $ npm run start:prod
 
 - PUT http://localhost:8000/api/animals : Modified an animal. Require a name, an age(int), a kind and an id(int) at body request, and an authorization(token) at header request. Returns an object
 
-- PUT http://localhost:8000/api/animals/:id : Delete an animal. Require an id(int) at param and an authorization(token) at header request. Returns an object
+- DELETE http://localhost:8000/api/animals/:id : Delete an animal. Require an id(int) at param and an authorization(token) at header request. Returns an object
 
 
